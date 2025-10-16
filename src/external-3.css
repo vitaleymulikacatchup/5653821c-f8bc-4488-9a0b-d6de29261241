@@ -1,0 +1,52 @@
+/* ============================================ */
+/* External CSS from https://www.orchids.app/_next/static/css/969696ff93be3643.css?dpl=dpl_9gvuMuAhYsVmDoK6nA73GxRWgYd2 */
+/* Processed and formatted by AI */
+/* Size: 798 bytes */
+/* ============================================ */
+
+.container_5e8073 {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_5e8073,
+.inner_e4bf28 {
+  height: var(--uib-size);
+  width: var(--uib-size);
+}
+
+.inner_e4bf28 {
+  transform-origin: center;
+  overflow: visible;
+}
+
+.car_8b024f {
+  fill: none;
+  stroke: var(--uib-color);
+  stroke-dasharray: var(--uib-dash), var(--uib-gap);
+  stroke-dashoffset: 0;
+  stroke-linecap: round;
+  animation: travel_2b6bf5 var(--uib-speed) linear infinite;
+  will-change: stroke-dasharray, stroke-dashoffset;
+}
+
+.car_8b024f,
+.track_58231c {
+  transition: stroke .5s ease;
+}
+
+.track_58231c {
+  stroke: var(--uib-color);
+  opacity: var(--uib-bg-opacity);
+}
+
+@keyframes travel_2b6bf5 {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -100;
+  }
+}
